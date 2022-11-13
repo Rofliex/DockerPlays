@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  webapi:
+    image: rofliex/dotnet_base_runtime:latest 
+    build:
+      context: .
+      dockerfile: Dockerfile.WebApi
+  logreader:
+    image: rofliex/dotnet_base_runtime:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.LogReader

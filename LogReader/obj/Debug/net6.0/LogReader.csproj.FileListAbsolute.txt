@@ -1,0 +1,15 @@
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\bin\Debug\net6.0\LogReader.exe
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\bin\Debug\net6.0\LogReader.deps.json
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\bin\Debug\net6.0\LogReader.runtimeconfig.json
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\bin\Debug\net6.0\LogReader.dll
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\bin\Debug\net6.0\LogReader.pdb
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\obj\Debug\net6.0\LogReader.csproj.AssemblyReference.cache
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\obj\Debug\net6.0\LogReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\obj\Debug\net6.0\LogReader.AssemblyInfoInputs.cache
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\obj\Debug\net6.0\LogReader.AssemblyInfo.cs
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\obj\Debug\net6.0\LogReader.csproj.CoreCompileInputs.cache
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\obj\Debug\net6.0\LogReader.dll
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\obj\Debug\net6.0\refint\LogReader.dll
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\obj\Debug\net6.0\LogReader.pdb
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\obj\Debug\net6.0\LogReader.genruntimeconfig.cache
+C:\Users\root\Desktop\SSTU\Основы облачных вычислений\Task4\DockerTask\LogReader\obj\Debug\net6.0\ref\LogReader.dll

@@ -1,0 +1,23 @@
+FROM rofliex/dotnet_base_runtime:latest AS base
+
+WORKDIR /app
+
+FROM rofliex/dotnet_base_build:latest AS build
+
+WORKDIR /src
+COPY ["./LogReader/LogReader.csproj", "LogReader/"]
+RUN dotnet restore "LogReader/LogReader.csproj"
+#RUN dotnet dev-certs https --trust
+COPY . .
+WORKDIR "/src/LogReader"
+
+RUN dotnet build -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "LogReader.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+
+CMD ["dotnet", "LogReader.dll"]

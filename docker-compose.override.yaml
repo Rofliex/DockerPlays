@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  webapi:
+    environment:
+      - ASPNETCORE_URLS="https://0.0.0.0:4343;http://0.0.0.0:8088"
+      - ASPNETCORE_Kestrel__Certificates__Default__Password="123"
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - ASPNETCORE_ENVIRONMENT=Development
+      - LOG_FOLDER=/app/logs
+    ports:
+      - "8088:8088"
+      - "4343:4343"
+    volumes:
+      - 'C:\Users\root\.aspnet\https:/https/'
+      - 'C:\Users\root\.aspnet\Logs:/app/logs'
+
+  logreader:
+    environment:
+      - LOG_FOLDER=/app/logs
+    volumes:
+      - 'C:\Users\root\.aspnet\Logs:/app/logs'
